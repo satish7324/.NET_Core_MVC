@@ -1,0 +1,35 @@
+Assignment
+
+Create Following screens with two tables
+
+Employee and Department
+
+Use query string for edit and delete operations.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Employee Listing
+                                               [ADD]
+
+Sel            | Employee ID | Employee Name | Department Name | Salary
+Del   Edit | 1                     | Ronak                     | Asp.Net                     | 5000
+Del   Edit | 2                     | Ketak                      |                                    | 1000
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+       
+Employee Add / Edit
+
+Employee Name:           [Textbox                                                     ] Max 25 Characters, Mandatory
+Department Name:       [Dropdown                                                ] List all department, Non Mandatory
+
+This will have one additional option as “New Department”. On “New Department” selection you have to provide new textbox to enter “Department Name”. 
+
+Salary:                                  [Textbox                   ] Max 20 Characters, Mandatory
+
+                                                                                                [SAVE] [CANCLE]
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Department Listing
+
+Department Name | No. Of Employee | Total Salary
